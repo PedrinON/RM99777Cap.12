@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+.title{
+    font-family: 'Italiana', serif;
+}
+    .title h1 {
+        font-weight: 900;
+        color: rgb(255, 247, 0);
+        margin-bottom: 1;
+        font-size: 27.74px;
+    }
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+p {
+    color: rgb(255, 255, 255);
+    margin-top: 1;
+    font-family: 'Italiana', serif;
+}
+form{
+    min-width:  50%;
+    max-width: 500px;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+label {
+    color: rgb(255, 255, 255);
+}
+input {
+    background-color: transparent;
+    border: 1px solid rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
+    height: 35px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+button{
+    border: 2px solid rgb(255, 247, 0);
+    background-color: transparent;
+    color:rgb(255, 247, 0);
+    width: 240px;
+    align-self: center;
+
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 247, 0);
+}
+
+
